@@ -66,7 +66,7 @@ python3 multi_masker.py \
 ### Step 4: Run BRAKER3 for Gene Prediction
 Finally, use the prediction.py script to perform the gene prediction on the masked genomes. This step requires a protein database. \*The --fungus flag was used to optimize the script for fungal genomes, but it can be changed for other organisms.
 ```
-python run_braker.py \
+python3 run_braker.py \
   -i path/to/masked_genomes \
   -p /path/to/protein_db.faa \
   -t 20 \
